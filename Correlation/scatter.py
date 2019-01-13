@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 '''
 Created on 2019年1月13日
-@author: agnostic
-
+@author: Zhukun Luo
+Jiangxi University of Finance and Economics
 '''
 import numpy as np
 import pandas as pd
