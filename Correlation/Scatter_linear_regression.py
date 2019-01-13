@@ -4,6 +4,12 @@ Created on 2019年1月13日 下午6:15:50
 Zhukun Luo
 Jiangxi University of Finance and Economics
 '''
+'''
+两个变量如何相互改变，那么最佳拟合线就是常用的方法。
+下图显示了数据中各组之间最佳拟合线的差异。
+要禁用分组并仅为整个数据集绘制一条最佳拟合线，
+下面的sns.lmplot（）调用中删除hue='cyl'参数
+'''
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
