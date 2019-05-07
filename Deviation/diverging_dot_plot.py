@@ -30,7 +30,7 @@ for x, y, tex in zip(df.mpg_z, df.index, df.mpg_z):
 
 # 装饰
 # 使边界线变透明
-plt.gca().spines["top"].set_alpha(.3)
+plt.gca().spines["top"].set_alpha(.3)#spine就是一个大的矩形框
 plt.gca().spines["bottom"].set_alpha(.3)
 plt.gca().spines["right"].set_alpha(.3)
 plt.gca().spines["left"].set_alpha(.3)

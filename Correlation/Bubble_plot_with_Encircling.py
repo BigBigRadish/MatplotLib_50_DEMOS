@@ -8,11 +8,12 @@ Jiangxi University of Finance and Economics
 有时，开发者希望在边界内显示一组点以强调其重要性。
 在这个例子中，你从数据框中获取记录，并用下面代码中描述的encircle（）来使边界显示出来。
 '''
-import numpy as np
+          
 import pandas as pd
 import matplotlib as mlp
 import matplotlib.pyplot as plt
 import seaborn as sns
+import numpy as np
 import warnings; warnings.filterwarnings(action='once')
 
 from matplotlib import patches

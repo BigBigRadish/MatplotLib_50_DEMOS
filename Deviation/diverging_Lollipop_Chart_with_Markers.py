@@ -33,7 +33,7 @@ plt.scatter(df.mpg_z, df.index, color=df.colors, s=[600 if x == 'Fiat X1-9' else
 plt.yticks(df.index, df.cars)
 plt.xticks(fontsize=12)
 
-# 标记
+# 添加注释
 plt.annotate('Mercedes Models', xy=(0.0, 11.0), xytext=(1.0, 11), xycoords='data', #根据轴的取值进行标记
             fontsize=15, ha='center', va='center',
             bbox=dict(boxstyle='square', fc='firebrick'),

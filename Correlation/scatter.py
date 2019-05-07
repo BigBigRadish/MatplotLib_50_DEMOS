@@ -10,7 +10,6 @@ import matplotlib as mlp
 import matplotlib.pyplot as plt
 import seaborn as sns
 import warnings; warnings.filterwarnings(action='once')
-from scipy.interpolate.interpolate import spltopp
 '''
 散点图是用于研究两个变量之间关系的经典的和基本的图表。
 如果数据中有多个组，则可能需要以不同颜色可视化每个组。

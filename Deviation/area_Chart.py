@@ -19,7 +19,7 @@ y_returns = (df.psavert.diff().fillna(0)/df.psavert.shift(1)).fillna(0) * 100
 
 # 画图
 plt.figure(figsize=(16,10), dpi= 80)
-plt.fill_between(x[1:], y_returns[1:], 0, where=y_returns[1:] >= 0, facecolor='green', interpolate=True, alpha=0.7)
+plt.fill_between(x[1:], y_returns[1:], 0, where=y_returns[1:] >= 0, facecolor='green', interpolate=True, alpha=0.7) #区域填充
 plt.fill_between(x[1:], y_returns[1:], 0, where=y_returns[1:] <= 0, facecolor='red', interpolate=True, alpha=0.7)
 
 # 具体标签标记
