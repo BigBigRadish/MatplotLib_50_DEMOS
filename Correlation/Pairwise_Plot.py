@@ -17,3 +17,10 @@ df = sns.load_dataset('iris')
 plt.figure(figsize=(10,8), dpi= 80)
 sns.pairplot(df, kind="scatter", hue="species", plot_kws=dict(s=80, edgecolor="white", linewidth=2.5))
 plt.show()
+# 加载数据集
+df = sns.load_dataset('iris')
+
+# 绘制点状分布图
+plt.figure(figsize=(10,8), dpi= 80)
+sns.pairplot(df, kind="reg", hue="species")
+plt.show()
